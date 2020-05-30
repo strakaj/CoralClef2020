@@ -16,6 +16,8 @@ original repository - [https://github.com/pierluigiferrari/ssd_keras](https://gi
 - weight_sampling_coral
 
 ## mAP
+original repository - [https://github.com/Cartucho/mAP](https://github.com/Cartucho/mAP)
+
 
 ## ostatni
 - flip_img
