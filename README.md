@@ -15,6 +15,13 @@ original repository - [https://github.com/pierluigiferrari/ssd_keras](https://gi
 - ssd512_training_coral
 - weight_sampling_coral
 
+## mAP
 
+## ostatni
+- flip_img
+- save_to_json
+- draw_bb
+- augmentations
+- split_dataset
 
 
