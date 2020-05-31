@@ -20,10 +20,10 @@ original repository - [https://github.com/Cartucho/mAP](https://github.com/Cartu
 
 
 ## ostatni
-- flip_img
-- save_to_json
-- draw_bb
-- augmentations
-- split_dataset
+- flip_img - Některé obrázky v datasetu jsou vzhledem k anotacím otočené o 180° a je potřeba je otočit.
+- save_to_json - Převedení poskytnutých anotací do formátu MS COCO.
+- draw_bb - Ilustrační zobrazení rámečků v obrázcích.
+- augmentations - Vygeneruje augmentované obrázky a soubor s novými anotacemi z původního datasetu a anotací vytvořených pomocí [save_to_json.py](https://github.com/strakaj/CoralClef2020/blob/master/ostatni/save_to_json.py). 
+- split_dataset - Rozdělí dataset na validační a trénovací množinu v zadaném poměru. Obrázky jsou rozděleny podle instancí tříd, které obsahují, tak aby se v každé množině vyskytovali v zadaném poměru. To může způsobit, že výsledný poměr bude vyšší než zadaný. První část rozdělí neaugmentovaná data, druhá část pak přiřadí augmentované obrázky do množiny ve které je originální obrázek. Vstupem je soubor s anotacemi ve formátu MS COCO, případně soubor s augmentovanými anotacemi, výstupem je soubor s anotacemi pro validační a soubor s anotacemi pro trénovací množinu.
 
 
