@@ -7,7 +7,7 @@ Object detection in an Image using Neural network
 
 ## Mask R-CNN
 original repository - [https://github.com/matterport/Mask_RCNN](https://github.com/matterport/Mask_RCNN)
-- MRCNN_training_coral - Pro trénování modelu je nejdříve potřeba stáhnout [https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5](předtrénované váhy) poskytované autory. Po stažení a umístění vah do požadované složky je možné spuštěním kódu model trénovat. Při přerušení trénování a opětovném spuštění je potřeba upravit část kódu, postup je popsaný v komentářích v kódu.
+- MRCNN_training_coral - Pro trénování modelu je nejdříve potřeba stáhnout [předtrénované váhy](https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5) poskytované autory. Po stažení a umístění vah do požadované složky je možné spuštěním kódu model trénovat. Při přerušení trénování a opětovném spuštění je potřeba upravit část kódu, postup je popsaný v komentářích v kódu.
 - Mask_RCNN_evaluate_coral - Provede detekci a uloží výsledky potřebné pro evaluaci, výpočet je proveden pomocí [mAP](mAP/).
 - Mask_RCNN_inference_coral - Může provést detekci na jednotlivých obrázcích, nebo validační/trénovací množině. 
 - Mask_RCNN_test_coral - Kód pro detekci na testovací množině. Provede detekci a uloží výsledky ve formátu požadovaném pro odevzdání.
@@ -17,7 +17,7 @@ original repository - [https://github.com/matterport/Mask_RCNN](https://github.c
 
 ## SSD
 original repository - [https://github.com/pierluigiferrari/ssd_keras](https://github.com/pierluigiferrari/ssd_keras)
-- ssd512_training_coral - Pro trénování modelu je nejdříve potřeba stáhnout [https://drive.google.com/file/d/1IJWZKmjkcFMlvaz2gYukzFx4d6mH3py5/view](předtrénované váhy) poskytované autory.  Po stažení a umístění vah do požadované složky je možné spuštěním kódu model trénovat. Při přerušení trénování a opětovném spuštění je potřeba upravit část kódu, postup je popsaný v komentářích v kódu.
+- ssd512_training_coral - Pro trénování modelu je nejdříve potřeba stáhnout [předtrénované váhy](https://drive.google.com/file/d/1IJWZKmjkcFMlvaz2gYukzFx4d6mH3py5/view) poskytované autory.  Po stažení a umístění vah do požadované složky je možné spuštěním kódu model trénovat. Při přerušení trénování a opětovném spuštění je potřeba upravit část kódu, postup je popsaný v komentářích v kódu.
 - weight_sampling_coral - Stažené předtrénované váhy jsou trénovány na datasetu MS COCO, který má 80 tříd. Dataset CoralClef má pouze 13 tříd, výstup modelu by tedy neodpovídal. Tento kód odstraní přebytečné části výstupu.
 - ssd512_evaluation_coral - Provede detekci a uloží výsledky potřebné pro evaluaci, výpočet je proveden pomocí [mAP](mAP/).
 - ssd512_inference_coral - Může provést detekci na jednotlivých obrázcích, nebo validační/trénovací množině.
@@ -28,6 +28,7 @@ original repository - [https://github.com/pierluigiferrari/ssd_keras](https://gi
 
 ## mAP
 original repository - [https://github.com/Cartucho/mAP](https://github.com/Cartucho/mAP)
+
 Kód použitý pro evaluaci obou modelů. Výsledky detekce a graund truth data musejí být uloženy ve složce input, pro každý obrázek musí být uložen soubor zvlášť. Výsledky jsou pak ve složce output. Výpočet je proveden spuštěním hlavního souboru `python main.py`.
 
 
