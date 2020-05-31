@@ -1,8 +1,9 @@
 # CoralClef2020
 Object detection in an Image using Neural network
 
-<img src="assets/imageclefcoral_logo.gif" width="100" height="100">
+<img src="assets/imageclefcoral_logo.gif" width="150" height="150">
 
+[ImageCLEF 2020 Coral](https://www.imageclef.org/2020/coral)
 
 ## Mask R-CNN
 original repository - [https://github.com/matterport/Mask_RCNN](https://github.com/matterport/Mask_RCNN)
@@ -11,6 +12,9 @@ original repository - [https://github.com/matterport/Mask_RCNN](https://github.c
 - Mask_RCNN_inference_coral - Může provést detekci na jednotlivých obrázcích, nebo validační/trénovací množině. 
 - Mask_RCNN_test_coral - Kód pro detekci na testovací množině. Provede detekci a uloží výsledky ve formátu požadovaném pro odevzdání.
 
+![](assets/img0_MRCNN.png)
+
+
 ## SSD
 original repository - [https://github.com/pierluigiferrari/ssd_keras](https://github.com/pierluigiferrari/ssd_keras)
 - ssd512_training_coral - Pro trénování modelu je nejdříve potřeba stáhnout [https://drive.google.com/file/d/1IJWZKmjkcFMlvaz2gYukzFx4d6mH3py5/view](předtrénované váhy) poskytované autory.  Po stažení a umýstění vah do požadované složky je možné spuštěním kódu model trénovat. Při přerušení trénování a opětovném spuštění je potřeba upravit část kódu, postup je posaný v komentářích v kódu.
@@ -18,6 +22,8 @@ original repository - [https://github.com/pierluigiferrari/ssd_keras](https://gi
 - ssd512_evaluation_coral - Provede detekci a uloží výsledky potřebné pro evluaci, výpočet je proveden pomocí [mAP](mAP/).
 - ssd512_inference_coral - Může provést detekci na jednotlivých obrázcích, nebo validační/trénovací množině.
 - ssd512_test_coral - Kód pro detekci na testovací množině. Provede detekci a uloží výsledky ve formátu požadovaném pro odevzdání.
+
+![](assets/img5_SSD.png)
 
 ## mAP
 original repository - [https://github.com/Cartucho/mAP](https://github.com/Cartucho/mAP)
