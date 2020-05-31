@@ -25,6 +25,7 @@ original repository - [https://github.com/pierluigiferrari/ssd_keras](https://gi
 
 ![](assets/img5_SSD.png)
 
+
 ## mAP
 original repository - [https://github.com/Cartucho/mAP](https://github.com/Cartucho/mAP)
 Kód použitý pro evaluaci obou modelů. Výsledky detekce a graund truth data musejí být uloženy ve složce input, pro každý obrázek musí být uložen soubor zvlášť. Výsledky jsou pak ve složce output. Výpočet je proveden spuštěním hlavního souboru `python main.py`.
