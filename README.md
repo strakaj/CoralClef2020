@@ -1,6 +1,8 @@
 # CoralClef2020
 Object detection in an Image using Neural network
 
+<img src="assets/imageclefcoral_logo.gif" width="100" height="100">
+
 
 ## Mask R-CNN
 original repository - [https://github.com/matterport/Mask_RCNN](https://github.com/matterport/Mask_RCNN)
